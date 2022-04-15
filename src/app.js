@@ -26,6 +26,7 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json({ limit: '10mb' }));
 app.use(vhost('api.*', api));
+app.use('*', require('cors')());
 
 app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
