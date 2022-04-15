@@ -1,0 +1,29 @@
+{
+  "name": "ripley-backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonaaaa54/ripley-backend.git"
+  },
+  "author": "jonathan reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonaaaa54/ripley-backend/issues"
+  },
+  "homepage": "https://github.com/jonaaaa54/ripley-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "jshint": "^2.13.4",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "vhost": "^3.0.2"
+  }
+}
