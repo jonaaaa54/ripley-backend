@@ -4,7 +4,7 @@ var router = express.Router();
 const pug = require('pug');
 
 router.get('/', function(req, res, next) {
-  res.send(pug.renderFile(__dirname + '../templates/api-index.pug'));
+  res.send({message: 'The documentation should go here.'});
 });
 
 router.get('/*', function(req, res, next) {
