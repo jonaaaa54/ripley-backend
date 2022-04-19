@@ -26,7 +26,7 @@ app.use('*', require('cors')());
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json({ limit: '10mb' }));
-app.use(vhost('api.ripley-backend.web.app', api));
+app.use(vhost('ripley-backend.web.app', api));
 app.use(vhost('api.*', api));
 
 app.get('/*', function (req, res) {
